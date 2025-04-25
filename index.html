@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROCAT CATERING</title>
+  <link rel="manifest" href="manifest.json" />
+  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>PROCAT CATERING</h1>
+
+    <section>
+      <h2>Meal Details</h2>
+      <label>Meal Session:
+        <select id="mealSession"></select>
+      </label>
+      <label>Cuisine Type:
+        <select id="cuisineType"></select>
+      </label>
+    </section>
+
+    <section>
+      <h2>Team Details</h2>
+      <label>Team Member:
+        <select id="teamMember"></select>
+      </label>
+      <label>Location:
+        <select id="location"></select>
+      </label>
+      <label>Date:
+        <input type="date" id="mealDate" />
+      </label>
+    </section>
+
+    <section>
+      <h2>Order Info</h2>
+      <div id="menuItemsContainer"></div>
+      <label>Pax Count:
+        <input type="number" id="paxCount" min="1" />
+      </label>
+    </section>
+
+    <button id="submitBtn">Submit Order</button>
+  </main>
+</body>
+</html>

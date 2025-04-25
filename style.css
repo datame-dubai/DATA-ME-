@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  padding: 1rem;
+  background: #f8f9fa;
+}
+.container {
+  max-width: 480px;
+  margin: auto;
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+  text-align: center;
+}
+section {
+  margin-bottom: 1.5rem;
+}
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+select, input[type="number"], input[type="date"] {
+  width: 100%;
+  margin-top: 0.2rem;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+}
+.menu-row {
+  margin-bottom: 1rem;
+}
+button {
+  width: 100%;
+  padding: 1rem;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+}
